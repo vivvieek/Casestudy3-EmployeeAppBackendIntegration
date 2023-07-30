@@ -18,7 +18,7 @@ app.listen(PORT,()=>{
 
 // Task2: create mongoDB connection 
 const mongoose=require('mongoose');
-const url = 'mongodb+srv://spvivekbabu:Fsda123@cluster0.h7vuisq.mongodb.net/';
+const url = 'mongodb+srv://spvivekbabu:fsda123@cluster0.h7vuisq.mongodb.net/';
 mongoose.connect(url,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
